@@ -116,8 +116,6 @@ class Contact extends Component {
                   <span>{phone}</span>
                 </p>
               </div>
-
-              
             </aside>
           </Slide>
         </div>
