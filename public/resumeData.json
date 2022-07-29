@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Daily Sales Online",
-    "description":"Daily Sales CRM",
-    "image":"profilepic.jpg",
+    "description":"Encontrá el mejor CRM de ventas para potenciar tu negocio",
+    "image":"logo-azul.svg",
     "github":"",
     "project":"",
     "address":{
@@ -34,11 +34,6 @@
         "name":"instagram",
         "url":"",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"",
-        "className":"fa fa-github"
       }
     ]  }
 }

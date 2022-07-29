@@ -24,7 +24,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Daily Sales Logo"
               />
             </div>
             <div className="nine columns main-col">
@@ -33,7 +33,7 @@ class About extends Component {
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Detalles de contacto</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />
