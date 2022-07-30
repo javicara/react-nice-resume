@@ -15,7 +15,10 @@ class Header extends Component {
       <header id="home">
         <img className="bg-img" src="../images/World_map.svg" alt="World map decoration" />
         {/* <ParticlesBg type="circle" bg={true} /> */}
+          {/* <div className="nav-responsive">
+          </div> */}
 
+          {/* <img className="logo-responsive" src="../images/DS-Favicon-blanco.svg" alt="logo" /> */}
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
