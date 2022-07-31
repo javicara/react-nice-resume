@@ -64,7 +64,8 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%;
+header .banner-text { 
+   width: 100%;
    text-align: left;
 }
 header .banner-text h1 {
@@ -74,8 +75,8 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #2B6CB0;
+   font: 18px/1.9em 'opensans-semibold', serif;
+   color: #2C5282;
    width: 70%;
 }
 header .banner-text h3 span,
@@ -185,12 +186,17 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+   position: relative;
 }
 ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
    display: inline-block;
+}
+
+#nav span {
+   display: none;
 }
 
 /* Links */

@@ -33,7 +33,7 @@
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 24px/1.9em 'opensans-semibold', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -109,6 +109,7 @@
       display: block;
       width: 50px;
       height: auto;
+      margin: 1rem 0 0 1rem;
    }
    
    #nav-wrap {
@@ -119,6 +120,7 @@
       position: fixed;
       top: 0;
       right: 0;
+      padding-bottom: 1rem;
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -203,7 +205,7 @@
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 22px/1.9em 'opensans-semibold', serif;
       width: 85%;
    }
    header .banner-text hr {
@@ -333,7 +335,7 @@
    footer .copyright li { margin-right: 12px; }
 
    /* social links */
-   footer .social-links { font-size: 22px; }
+   /* footer .social-links { font-size: 22px; } */
    footer .social-links li { margin-left: 18px; }
 
    /* Go To Top Button */
@@ -357,6 +359,17 @@
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
+   #nav span {
+      display: block;      
+      position: absolute;
+      top: -43px;
+      left: 20px;
+      font-size: 2rem!important;
+      font-family: 'opensans-bold', sans-serif !important;
+      color: #1A365D !important;
+      text-transform: initial!important;
+   }
+
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
@@ -365,8 +378,12 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 20px/1.9em 'opensans-semibold', sans-serif;
       width: 90%;
+   }
+
+   header .banner-flex img {
+      display: none;
    }
   
    /* header social links */
@@ -377,8 +394,8 @@
    ------------------------------------------------------------------------ */
 
    /* social links */
-   footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
+   footer .social-links { font-size: 24px; }
+   /* footer .social-links li { margin-left: 14px; }    */
 
 }
 

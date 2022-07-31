@@ -18,16 +18,17 @@ class Header extends Component {
           {/* <div className="nav-responsive">
           </div> */}
 
-          {/* <img className="logo-responsive" src="../images/DS-Favicon-blanco.svg" alt="logo" /> */}
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
+          {/* <img className="logo-responsive mobile-btn" src="../images/DS-Favicon-blanco.svg" alt="logo" /> */}
           <a className="mobile-btn" href="#home" title="Hide navigation">
             Hide navigation
           </a>
 
           <ul id="nav" className="nav">
+            <span>Daily Sales</span>
             <li className="current">
               <a className="smoothscroll" href="#home">
                 Home
@@ -52,7 +53,7 @@ class Header extends Component {
               <Fade bottom>
                 <div>
                   <h1 className="responsive-headline">Daily Sales<br />Online</h1>
-                  <h3>{description}.</h3>
+                  <h3>{description}</h3>
                 </div>
               </Fade>
               <div>
