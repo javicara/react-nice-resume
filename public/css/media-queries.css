@@ -33,7 +33,7 @@
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 24px/1.9em 'opensans-semibold', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -99,6 +99,19 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   .nav-responsive {
+      display: flex;
+      justify-content: space-between;
+
+   }
+
+   .logo-responsive {
+      display: block;
+      width: 50px;
+      height: auto;
+      margin: 1rem 0 0 1rem;
+   }
+   
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -107,29 +120,30 @@
       position: fixed;
       top: 0;
       right: 0;
+      padding-bottom: 1rem;
    }
    #nav-wrap > a {
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #fff;
 		position: relative;
       border: none;
       float: right;
-
+      border: solid 1px #1A365D;
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
 
       position: relative;
-      top: 0px;
-      right: 30px;
+      top: 1rem;
+      right: 1rem;
    }
 
 	#nav-wrap > a:before,
    #nav-wrap > a:after {
 	   position: absolute;
-		border: 2px solid #fff;
+		border: 2px solid #1A365D;
 		top: 35%;
 		left: 25%;
 		right: 25%;
@@ -157,31 +171,29 @@
    }
 
    /* display menu panels */
-	#nav-wrap:target > ul#nav	{
-	   display: block;
-      padding: 30px 20px 48px 20px;
-      background: #1f2024;
-      margin: 0 30px;
+	#nav-wrap:target > ul#nav {
+	   display: flex;
+      flex-direction: column;
+      gap: 34px;
+      padding: 20px;
+      background: #fff;
       clear: both;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
    }
 
    ul#nav li {
       display: block;
-      height: auto;      
-      margin: 0 auto; 
-      padding: 0 4%;           
+      height: auto;             
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
-      border-bottom-style: dotted; 
    }
   
    ul#nav li a {  
       display: block;    
       margin: 0;
       padding: 0;      
-      margin: 12px 0; 
       line-height: 16px; /* reset line-height from 48px */
       border: none;
+      padding: 10px 0;
    }  
 
 
@@ -193,7 +205,7 @@
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 22px/1.9em 'opensans-semibold', serif;
       width: 85%;
    }
    header .banner-text hr {
@@ -323,7 +335,7 @@
    footer .copyright li { margin-right: 12px; }
 
    /* social links */
-   footer .social-links { font-size: 22px; }
+   /* footer .social-links { font-size: 22px; } */
    footer .social-links li { margin-left: 18px; }
 
    /* Go To Top Button */
@@ -347,6 +359,17 @@
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
+   #nav span {
+      display: block;      
+      position: absolute;
+      top: -43px;
+      left: 20px;
+      font-size: 2rem!important;
+      font-family: 'opensans-bold', sans-serif !important;
+      color: #1A365D !important;
+      text-transform: initial!important;
+   }
+
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
@@ -355,8 +378,12 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 20px/1.9em 'opensans-semibold', sans-serif;
       width: 90%;
+   }
+
+   header .banner-flex img {
+      display: none;
    }
   
    /* header social links */
@@ -367,8 +394,8 @@
    ------------------------------------------------------------------------ */
 
    /* social links */
-   footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
+   footer .social-links { font-size: 24px; }
+   /* footer .social-links li { margin-left: 14px; }    */
 
 }
 

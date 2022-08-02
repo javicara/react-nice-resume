@@ -64,7 +64,8 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%;
+header .banner-text { 
+   width: 100%;
    text-align: left;
 }
 header .banner-text h1 {
@@ -74,8 +75,8 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #2B6CB0;
+   font: 18px/1.9em 'opensans-semibold', serif;
+   color: #2C5282;
    width: 70%;
 }
 header .banner-text h3 span,
@@ -185,12 +186,17 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+   position: relative;
 }
 ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
    display: inline-block;
+}
+
+#nav span {
+   display: none;
 }
 
 /* Links */
@@ -905,8 +911,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 10px 20px;
-	color: #eee;
-	border: solid 1px #373233;
+   border: 1px solid #ced4da !important;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -917,8 +922,13 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #1A365D;
-	background-color: #0762f9;
+   color: #212529;
+   background-color: #fff;
+   border-color: #86b7fe;
+   outline: 0;
+   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+   border-radius: 5px;
+   transition: all .3s ease-in-out;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -957,10 +967,12 @@ call-to-action .button {
 #image-loader {
    display: none;
    position: relative;
-   left: 18px;
-   top: 17px;
+   left: 23px;
+   top: 15px;
 }
-
+#image-loader img {
+   width: 40px;
+}
 
 /* Twitter Feed */
 #twitter {
